@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.background-radial-gradient {
+    background-color: hsl(283, 40%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(271, 41%, 35%) 15%,
+        hsl(251, 30%, 42%) 35%,
+        hsl(293, 41%, 20%) 75%,
+        hsl(265, 40%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(261, 39%, 36%) 15%,
+        hsl(251, 54%, 86%) 35%,
+        hsl(279, 33%, 44%) 75%,
+        hsl(282, 40%, 19%) 80%,
+        transparent 100%);
+  }
+
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#2c0d48, #6b2d6c);
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#35203e, #894bda);
+    overflow: hidden;
+  }
+
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
+
+  .boton {
+    font-family: "DM Sans";
+    font-weight: 600;
+    margin:auto;
+    color: white !important;
+    background-image: linear-gradient(to right, #35203e, #894bda);
+    background-color: grad; 
+    border-radius: 25px;
+    padding: 10px;
+    height: 50px;
+    width: 160px;
+    border: none;
+} 
+
+.contenedor-btn {
+    text-align: center;
+    margin-bottom: 16px;
+}
