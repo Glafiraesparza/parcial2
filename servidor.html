@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+  <nav class="navbar sticky-top navbar-expand-sm navbar-white">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-2" href="index.html">
+        <img src="img/icono.png" alt="Logo" width="40" height="40" class="d-inline-block align-center">
+        <span class="web-color">DESARROLLO WEB</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active" aria-current="page">Volver al Inicio</a></li>
+          </li>
+          <!-- Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Programación del lado del servidor</a>
+            <ul class="dropdown-menu dropdown-menu-end" style="margin-right: 20px;">
+              <li><a class="dropdown-item" href="#tecnologias-web-apis">Tecnología de Web APIS</a></li>
+              <li><a class="dropdown-item" href="#microservicios">Microservicios</a></li>
+              <li><a class="dropdown-item" href="#desarrollo-web-api">Desarrollo de Web API</a></li>
+              <li><a class="dropdown-item" href="#contenedores">Contenedores</a></li>
+              <li><a class="dropdown-item" href="#ap-nube">Apps en la Nube</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+
+    <div class="row g-5">
+      <div class="col-md-8">
+        
+        <h1 class="blog-post-title">
+            Programación del lado del servidor
+        </h1> 
+        <hr> 
+        <article class="blog-post">
+        <section id="tecnologias-web-apis">
+            <h2>Tecnologías de Web APIs</h2>
+            <h5 class="mt-4">Definición</h5>
+          <p>Mecanismos que permiten a dos componentes de software comunicarse
+            entre sí mediante un conjunto de definiciones y protocolos. (Amazon,
+            2023)</p>
+         
+          <p>Una API (interfaz de programación de aplicaciones), es un conjunto de
+            reglas definidas que permiten que diferentes aplicaciones se comuniquen
+            entre sí. Actúa como una capa intermedia que procesa las transferencias
+            de datos entre sistemas, permitiendo a las empresas abrir sus datos y
+            funcionalidades de aplicaciones a desarrolladores externos, socios
+            comerciales y departamentos internos dentro de sus empresas. (IBM,
+            2023)</p>
+          <h5>Ejemplos de APIs</h5>
+            <li>Las API de Google: Búsqueda, Gmail, Traductor o Maps.</li>
+            <li>Paypal</li>
+            <li>Incrustración de Videos de Youtube</li>
+            <li>WhatsApp Business</li>
+            <li>Instagram, Facebook</li>
+          </ul>
+          
+          <div class="row my-4">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                <img src="https://img.freepik.com/vector-gratis/ilustracion-api-diseno-
+                plano_23-2149364434.jpg?t=st=1743877850~exp=1743881450~hmac=5b51cc2dfc6b5770b6a4e
+                0a133952e126e1318f514ac94766035968ac302cc30&w=1380" alt="web-apis" style="width:100%">
+              </div>
+            </div>
+          </div>
+
+          <h5 class="mt-4">Funcionamiento de SOAP</h5>
+          <p>El funcionamiento de SOAP implica la creación, envío y
+            recepción de mensajes SOAP. Un mensaje SOAP consta de
+            un sobre (encabezado) y un cuerpo. El sobre contiene
+            información sobre la estructura y el procesamiento del
+            mensaje, mientras que el cuerpo contiene los datos a
+            transmitir.</p>
+         
+          <p>Cuando una aplicación envía una solicitud SOAP a un
+            servicio web, el mensaje se envía al servidor web que aloja
+            el servicio. El servidor procesa la solicitud, realiza la
+            operación especificada y devuelve una respuesta en forma
+            de otro mensaje SOAP. Esta respuesta se puede analizar y
+            procesar en la aplicación cliente.</p>
+
+            <h5 class="mt-4">API Rest</h5>
+          <p>Una API, o interfaz de programación de aplicaciones es un conjunto de reglas que definen
+            la forma en que aplicaciones o dispositivos pueden conectarse y comunicarse entre sí.
+            Una API REST es una API que se ajusta a los principios de diseño de REST, o el estilo de
+            arquitectura de transferencia de estado representacional. Por esta razón, las API REST a
+            veces se denominan API RESTful.</p>
+         
+          <p>Definido por primera vez en 2000 por el científico informático Dr. Roy Fielding en su tesis
+            doctoral, REST proporciona un nivel relativamente alto de flexibilidad y libertad para los
+            desarrolladores. Esta flexibilidad es solo una de las razones por las que las API REST han
+            surgido como un método común para conectar componentes y aplicaciones en una
+            arquitectura de microservicios.</p>
+
+            <h5 class="mt-4">JSON Web Token</h5>
+          <p>Un JWT es un estándar para la autenticación y el intercambio de información definido por RFC7519. Es
+            posible almacenar objetos JSON de forma segura y compacta. Este token es un código Base64 y se puede
+            firmar con un par de claves secretas o privadas/públicas.</p>
+         
+          <p>Los tokens firmados pueden verificar la integridad de la información que contienen, a diferencia de los
+            tokens cifrados que ocultan esta información. Si un JWT está firmado por un par de claves pública/privada,
+            la empresa certifica que la parte que tiene la clave privada está realmente firmada.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2603LxlQzpk?si=oqi8B1oOY6xTlJwJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <hr>
+
+        <section id="microservicios">
+            <h2>Microservicios</h2>
+            <h5 class="mt-4">Definición</h5>
+          <p>Los microservicios, o arquitectura de microservicios, son un enfoque arquitectónico 
+            nativo de la nube en el que una sola aplicación se conforma de muchos componentes o 
+            servicios más pequeños poco acoplados y que se pueden desplegar de forma independiente.</p>
+         
+          <p>Las arquitecturas de microservicios hacen que las aplicaciones sean más fáciles de 
+            escalar y más rápidas de desarrollar. Esto permite la innovación y acelera el tiempo de 
+            comercialización de las nuevas características.</p>
+
+          <h5>Características de los Microservicios</h5>  
+          <ul>
+            <li><strong>Autónomos: </strong>Cada servicio componente en una arquitectura de 
+                microservicios se puede desarrollar, implementar, operar y escalar sin afectar el 
+                funcionamiento de otros servicios. Los servicios no necesitan compartir ninguno de sus 
+                códigos o implementaciones con otros servicios. Cualquier comunicación entre componentes 
+                individuales ocurre a través de API bien definidas.</li>
+            <li><strong>Especializadas: </strong>Cada servicio está diseñado para un conjunto de capacidades 
+                y se enfoca en resolver un problema específico. Si los desarrolladores aportan más código 
+                a un servicio a lo largo del tiempo y el servicio se vuelve complejo, se puede dividir en 
+                servicios más pequeños.</li>    
+          </ul>
+
+          <h5>Qué no son los microservicios</h5>
+          <p>
+            Los microservicios también pueden entenderse en contraste con dos 
+            arquitecturas de aplicaciones anteriores: la arquitectura monolítica y la arquitectura orientada 
+            a servicios (SOA).
+          </p>
+          <p>
+            La diferencia entre los microservicios y la arquitectura monolítica es que los microservicios componen 
+            una única aplicación a partir de muchos servicios más pequeños y poco acoplados, frente al enfoque 
+            monolítico de una aplicación grande y muy acoplada.
+          </p>
+          <div class="row my-4">
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                <img src="https://www.krasamo.com/wp-content/uploads/Microservices-Architecture.png" alt="monolitca-microservicios" style="width:100%">
+              </div>
+            </div>
+          </div>
+
+          <p>
+            Las diferencias entre los microservicios y la SOA pueden ser un poco menos claras. 
+            Si bien se pueden establecer contrastes técnicos entre los microservicios y la SOA, 
+            especialmente en torno a la función del bus de servicios empresarial, es más fácil ver 
+            la diferencia como una cuestión de alcance. La SOA fue un esfuerzo de toda la empresa para 
+            estandarizar la forma en que todos los servicios web de una organización hablan y se integran 
+            entre sí, mientras que la arquitectura de microservicios es específica de las aplicaciones.
+          </p>
+          <div class="row my-4">
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+              <div class="img-thumbnail">
+                <img src="https://www.xenonstack.com/hubfs/service-oriented-architecture-vs-microservices-xenonstack.png" alt="monolitca-microservicios" style="width:100%">
+              </div>
+            </div>
+          </div>
+
+          <h5>Beneficios de los microservicios y las aplicaciones de la nube</h5>
+          <p>Los microservicios continúan ganando popularidad debido a la flexibilidad innata 
+            de la arquitectura en la nube. De hecho, un estudio reciente realizado por Intel reveló 
+            que el 83 % de todas las nuevas aplicaciones nativas de la nube y las soluciones de SaaS 
+            están usando microservicios.</p>
+          <p>
+            Uno de los mayores beneficios de los microservicios es la velocidad y la flexibilidad de 
+            implementación. A medida que las cargas de trabajo y las aplicaciones de nube continúan 
+            creciendo en escala y alcance, es cada vez más difícil y requiere más tiempo adaptar las 
+            arquitecturas monolíticas para incorporar las nuevas demandas. Los microservicios están 
+            desglosados, de modo que su desarrollo, implementación y mantenimiento pueden administrarse 
+            en un modelo distribuido.
+          </p>  
+        </section>    
+        <hr>
+
+        <section id="desarrollo-web-api">
+            <h2>Desarrollo de una Web API</h2>
+            <h5 class="mt-5">Recomendaciones</h5>
+            <ol>
+                <li><strong>Definir los objetivos de la API: </strong>
+                    Antes de comenzar a desarrollar la
+                    API, es fundamental tener una comprensión clara de los problemas
+                    que intentará resolver y los usuarios a los que servirá.
+                </li>
+                <li><strong>Seguir estándares y convenciones:</strong> Es importante seguir los
+                    estándares y convenciones de la industria al desarrollar una API web.
+                    Esto facilita la comprensión y el uso de la API por parte de otros
+                    desarrolladores, por ejemplo seguir los principios de REST, utilizar
+                    JSON o XML como formatos de intercambio de datos,etc.</li>
+                <li><strong>Documentar la API de manera exhaustiva: </strong>La documentación
+                    clara y completa de la API es esencial para que otros desarrolladores
+                    puedan entender cómo usarla correctamente, se pueden utilizar
+                    herramientas como Swagger o Postman para generar documentación
+                    automáticamente.</li>    
+                <li><strong>Versionar la API: </strong>La seguridad es un aspecto crucial en el
+                    desarrollo de las APIs web, se deben implementar medidas de
+                    seguridad como autenticación y autorización para proteger la API de
+                    accesos no autorizados.</li>    
+            </ol><br>
+            <h5>Proceso de desarrollo de una Web API</h5>
+            <ol>
+                <li><strong>Análisis de requerimientos: </strong>Identificar los requisitos funcionales
+                    y no funcionales de la API, incluidos los casos de uso y los datos
+                    que se manipularán.</li><br>
+                <li><strong>Planificación: </strong>Una vez que se han definido los requerimientos, se
+                    pasa a la planificación del proyecto, que incluye la definición de los
+                    objetivos del proyecto, la asignación de recursos, la estimación de
+                    tiempos y costos, y la definición de la metodología de desarrollo a
+                    utilizar. La planificación se basa en los requerimientos identificados.</li><br>
+                <li><strong>Diseño de API: </strong>
+                    Definir los endpoints, métodos HTTP admitidos,
+                    parámetros de solicitud y respuesta, y esquema de autenticación.
+                    Un endpoint en el contexto de una API web es una URL específica a
+                    la que los clientes pueden enviar solicitudes HTTP para interactuar
+                    con la API, cada endpoint está asociado con una operación
+                    específica que la API puede realizar, como obtener información,
+                    enviar datos o eliminar recursos.
+                <ul>
+                    <br>
+                    <strong>Por ejemplo, en una API de un blog, los endpoints serían:</strong>
+                    <li>
+                        /posts: Para obtener una lista de todos los posts o crear un
+                        nuevo post.
+                    </li>
+                    <li>
+                        /posts/{id}: Para obtener, actualizar o eliminar un post
+                        específico identificado por su ID
+                    </li>
+                    <li>/comments: Para obtener una lista de todos los comentarios
+                        o crear un nuevo comentario.</li>
+                    <li>/comments/{id}: Para obtener, actualizar o eliminar un
+                        comentario específico identificado por su ID.</li>
+                </ul></li><br>
+                <li><strong>Implementación: </strong>Al desarrollar una API se debe seguir un diseño
+                    definido, utilizando herramientas y frameworks adecuados como
+                    por ejemplo Express.js para Node.js o Flask para Python.</li><br>
+                <li><strong>Pruebas: </strong>Realizar pruebas unitarias y de integración para
+                    garantizar que la API funcione según lo esperado y que maneje
+                    adecuadamente los errores.</li><br>
+                <li><strong>Documentación: </strong>Crear documentación clara y detallada de la API,
+                    incluidos ejemplos de uso y casos de error.</li><br>
+                <li><strong>Despliegue: </strong>Implementar la API en un entorno de producción,
+                    asegurando que esté disponible y escalable.</li><br>
+                <li><strong>Monitoreo: </strong>Establecer un sistema de monitoreo
+                    para detectar problemas y realizar mantenimiento regular para
+                    garantizar que la API siga siendo eficiente y segura.</li><br>
+                <li><strong>Comercialización: </strong>Al desarrollar Apis que serán
+                    ofertadas al público o las empresas, entonces será conveniente
+                    publicar la API para monetizarla en algún mercado de APIs en donde
+                    los desarrolladores compran y vendan.</li><br>
+            </ol>
+            <div class="row my-4">
+                
+                <div class="col-md-4">
+                  <div class="img-rounded">
+                    <img src="https://nbxsoluciones.com/wp-content/uploads/2022/06/api_portada.jpg" alt="web-apis" style="width:100%">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="img-rounded">
+                        <img src="https://www.valuehost.com.br/blog/wp-content/uploads/2024/10/valuesoftsistemas_valuehosthospedagem_image_237.jpeg.webp" alt="web-apis" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="img-rounded">
+                      <img src="https://www.akamai.com/site/es/images/article/2023/how-a-web-api-works.png" alt="web-apis" style="width:100%">
+                    </div>
+                  </div>
+            </div>
+              
+        </section>
+        <hr>
+        <section id="contenedores">
+            <h2 class="mt-5">Contenedores</h2><br>
+            <h5>¿Qué son los contenedores?</h5>
+            <p>Los contenedores son paquetes de software que incluyen todos los elementos necesarios para que ejecutes tus productos en cualquier entorno. Como virtualizan el sistema operativo, se pueden ejecutar en cualquier parte, desde un centro de datos privado hasta la nube pública o incluso el portátil personal de un desarrollador. Desde Gmail a YouTube, pasando por la Búsqueda, en Google todo se hace en contenedores. La creación de contenedores permite a nuestros equipos de desarrollo moverse con rapidez, desplegar software con eficacia y funcionar a una escala sin precedentes. Hemos aprendido mucho sobre cómo ejecutar las cargas de trabajo en contenedores y hemos compartido esos conocimientos con la comunidad en todo momento: desde la primera etapa en que contribuimos con los cgroups al kernel de Linux hasta que extrajimos los diseños de nuestras herramientas internas y compartimos su código con la comunidad en el proyecto Kubernetes.</p>
+            <div class="row my-4">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="img-rounded">
+                        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/app-service_containers_deploy?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=786&hei=443&qlt=85&fit=constrain" alt="containers" style="width:100%">
+                    </div>
+                </div>
+            </div>
+            <h5>Ventajas de los Contenedores</h5>
+            <div class="row my-4">
+                <div class="col-md-4">
+                    <h6>Separación de las responsabilidades</h6><br>
+                    <p>La creación en contenedores permite separar de forma clara las responsabilidades, ya que los desarrolladores se centran en la lógica y las dependencias de las aplicaciones, mientras que los equipos de operaciones de TI se dedican a desplegarlas y gestionarlas sin preocuparse por detalles concretos, como versiones de software o configuraciones específicas.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Portabilidad de las cargas de trabajo</h6><br>
+                    <p>Como los contenedores se pueden ejecutar casi en cualquier lugar, resulta facilísimo desarrollarlos y desplegarlos en sistemas operativos Linux, Windows y Mac; en máquinas virtuales o servidores físicos; en equipos de desarrolladores o centros de datos on‑premise; y, por supuesto, en la nube pública.</p> 
+                </div>
+                <div class="col-md-4">
+                    <h6>Aislamiento de<br> Aplicaciones</h6><br>
+                    <p>Los contenedores virtualizan los recursos de CPU, memoria, almacenamiento y red a nivel de sistema operativo, lo que proporciona a los desarrolladores una vista del sistema operativo aislado lógicamente de las demás aplicaciones.</p>
+                </div>
+            </div>
+            <br>
+            <h5>Diferencias entre Kubernetes y Docker</h5>
+            <p>Docker es una tecnología de tiempo de ejecución de contenedores que le permite crear, probar e implementar aplicaciones más rápido que con los métodos tradicionales. Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema y código. Kubernetes es una herramienta de orquestación de contenedores que le permite escalar sus sistemas de contenedores para que pueda administrar, coordinar y programar contenedores a gran escala.</p>
+            <br>
+            <h5>¿Dónde se utilizan Kubernetes y Docker?</h5>
+            <p>Tanto Kubernetes como Docker son tecnologías de contenedores. Las aplicaciones modernas están formadas por microservicios o componentes independientes que ejecutan cada proceso de la aplicación como un servicio. Cada servicio realiza una única función y se comunica con otros servicios a través de una interfaz bien definida denominada API. La contenedorización proporciona la herramienta de software para empaquetar microservicios como programas que se pueden implementar en diferentes plataformas.</p>
+            <br>
+            <div class="container my-5">
+                <h2 class="mb-4">Comparación entre Kubernetes y Docker</h2>
+                <table class="table table-striped table-bordered">
+                  <thead class="table-dark">
+                    <tr>
+                      <th>Características</th>
+                      <th>Kubernetes</th>
+                      <th>Docker</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>¿Qué es?</strong></td>
+                      <td>Herramienta de orquestación de contenedores.</td>
+                      <td>Pila de tecnologías de contenedores para crear y ejecutar contenedores.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Usos</strong></td>
+                      <td>Coordinar varios contenedores en varios servidores.</td>
+                      <td>Empaquetar aplicaciones con bibliotecas y tiempos de ejecución en imágenes de contenedor.</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ventaja principal</strong></td>
+                      <td>Definir y ejecutar aplicaciones complejas en contenedores a escala.</td>
+                      <td>Estandarizar las operaciones de las aplicaciones y enviar el código más rápidamente.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            
+        </section>
+
+        <section id="ap-nube">
+            <h2 class="mb-4">Desarrollo de Aplicaciones para la Nube</h2>
+
+            <div class="mb-4">
+            <h5>¿Qué es?</h5>
+            <p>Es el proceso de diseñar, construir, probar, implementar y mantener aplicaciones que se ejecutan en entornos <strong>cloud</strong> (nube), ya sea pública, privada o híbrida. Estas apps están optimizadas para aprovechar las ventajas del cómputo en la nube, como la escalabilidad, disponibilidad y flexibilidad.</p>
+            </div>
+
+            <div class="mb-4">
+            <h5>Características Clave</h5>
+            <ul>
+                <li>Escalabilidad automática</li>
+                <li>Alta disponibilidad</li>
+                <li>Despliegue continuo (CI/CD)</li>
+                <li>Arquitectura basada en microservicios</li>
+                <li>Uso de contenedores (como Docker)</li>
+                <li>Computación sin servidor (Serverless)</li>
+            </ul>
+            </div>
+
+            <div class="mb-4">
+            <h5>Tecnologías Comunes</h5>
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                <tr>
+                    <th>Categoría</th>
+                    <th>Ejemplos</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Cloud Providers</td>
+                    <td>AWS, Azure, Google Cloud Platform</td>
+                </tr>
+                <tr>
+                    <td>Contenedores</td>
+                    <td>Docker, Podman</td>
+                </tr>
+                <tr>
+                    <td>Orquestación</td>
+                    <td>Kubernetes</td>
+                </tr>
+                <tr>
+                    <td>Backends Serverless</td>
+                    <td>AWS Lambda, Azure Functions</td>
+                </tr>
+                <tr>
+                    <td>Bases de Datos</td>
+                    <td>Firebase, Amazon RDS, MongoDB Atlas</td>
+                </tr>
+                <tr>
+                    <td>Almacenamiento</td>
+                    <td>Amazon S3, Azure Blob Storage</td>
+                </tr>
+                <tr>
+                    <td>Frameworks Web</td>
+                    <td>Node.js, Django, Flask, Spring Boot</td>
+                </tr>
+                <tr>
+                    <td>Infraestructura como Código</td>
+                    <td>Terraform, AWS CloudFormation</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="mb-4">
+            <h5>Ventajas del Desarrollo en la Nube</h5>
+            <ul>
+                <li>Reducción de costos en infraestructura</li>
+                <li>Despliegue global fácil</li>
+                <li>Alta disponibilidad</li>
+                <li>Recuperación ante desastres</li>
+                <li>Pruebas e integración automatizadas</li>
+                <li>Aceleración del desarrollo ágil</li>
+            </ul>
+            </div>
+
+            <div class="mb-4">
+            <h5>Modelos de Servicio en la Nube</h5>
+            <table class="table table-bordered">
+                <thead class="table-secondary">
+                <tr>
+                    <th>Modelo</th>
+                    <th>Significado</th>
+                    <th>Ejemplo</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>IaaS</td>
+                    <td>Infraestructura como Servicio</td>
+                    <td>Amazon EC2, Google Compute Engine</td>
+                </tr>
+                <tr>
+                    <td>PaaS</td>
+                    <td>Plataforma como Servicio</td>
+                    <td>Heroku, Google App Engine</td>
+                </tr>
+                <tr>
+                    <td>SaaS</td>
+                    <td>Software como Servicio</td>
+                    <td>Google Workspace, Dropbox</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="mb-4">
+            <h5>Buenas Prácticas</h5>
+            <ul>
+                <li>Diseñar para fallos (resiliencia)</li>
+                <li>Usar CDN para mejorar el rendimiento</li>
+                <li>Implementar monitoreo y logging</li>
+                <li>Automatizar todo lo posible (DevOps)</li>
+                <li>Proteger datos y accesos (seguridad en la nube)</li>
+            </ul>
+            </div>
+        </section>
+        
+
+        <nav class="blog-pagination" aria-label="Pagination">
+          <a class="btn btn-outline-primary" href="#tecnologias-web-apis">Ir al inicio</a>
+        </nav>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 7rem;">
+          <div class="p-4 mb-3 bg-light rounded">
+            <h4 class="fst-italic">Acerca</h4>
+            <p class="mb-0">La programación del lado del servidor es un tipo de desarrollo web que se 
+                ejecuta en el servidor, no en el navegador del usuario. El servidor procesa las solicitudes
+                 del cliente y realiza operaciones como acceder a bases de datos o lógica de negocio, y
+                  luego envía la respuesta al navegador.
+
+            </p>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Temario</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#tecnologia-web-apis">Tecnología de Web APIS</a></li>
+              <li><a href="#microservicios">Microservicios</a></li>
+              <li><a href="#desarrollo-web-api">Desarrollo de una Web API</a></li>
+              <li><a href="#contenedores">Contenedores</a></li>
+              <li><a href="#ap-nube">Desarrollo de Aplicaciones para la Nube</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="blog-footer">
+    <p>Proyecto integrador. Glafira Rodríguez Esparza</p>
+    <p>
+      <a href="index.html">Volver a la página principal</a>
+    </p>
+  </footer>
+
+</body>
+</html>
