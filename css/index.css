@@ -12,6 +12,11 @@ body {
     
 }
 
+.text-justify {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+  }
+
 .container-top {
   background-image: linear-gradient(to top, #000000, #3f0147);
   background-color: grad;
