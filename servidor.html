@@ -56,11 +56,11 @@
         <section id="tecnologias-web-apis">
             <h2>Tecnologías de Web APIs</h2>
             <h5 class="mt-4">Definición</h5>
-          <p>Mecanismos que permiten a dos componentes de software comunicarse
+          <p class="text-justify">Mecanismos que permiten a dos componentes de software comunicarse
             entre sí mediante un conjunto de definiciones y protocolos. (Amazon,
             2023)</p>
          
-          <p>Una API (interfaz de programación de aplicaciones), es un conjunto de
+          <p class="text-justify">Una API (interfaz de programación de aplicaciones), es un conjunto de
             reglas definidas que permiten que diferentes aplicaciones se comuniquen
             entre sí. Actúa como una capa intermedia que procesa las transferencias
             de datos entre sistemas, permitiendo a las empresas abrir sus datos y
@@ -86,15 +86,31 @@
             </div>
           </div>
 
+            <h5 class="mt-4">¿Qué es HTTP?</h5>
+          <p class="text-justify">HTTP (Protocolo de Transferencia de Hipertexto) es un protocolo sin estado, 
+              de nivel de aplicación, que se utiliza para sistemas de información distribuidos, 
+              colaborativos e hipertexto (como la Web).  HTTP es un protocolo de transferencia 
+              de capa de aplicación basado en texto y es considerado la base para la comunicación
+              de datos entre dispositivos en red. Y durante este proceso de solicitud-respuesta, 
+              HTTP utiliza estándares y reglas predefinidos para el intercambio de información. 
+              En general, HTTP es el protocolo que los clientes y servidores utilizan para comunicarse.</p>
+         
+          <p class="text-justify">HTTP permite la interacción flexible con sistemas basados en la red, ocultando detalles 
+              internos del servicio al cliente. Cada mensaje puede ser entendido y procesado de forma aislada, 
+              sin necesidad de conocer el contexto completo de la aplicación o el cliente. HTTP también permite 
+              actuar como intermediario (como en el caso de proxys o gateways), traduciendo otros protocolos 
+              a una interfaz genérica.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/60606AHuq8c" title="¿Qué es y cómo funciona HTTPS?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
           <h5 class="mt-4">Funcionamiento de SOAP</h5>
-          <p>El funcionamiento de SOAP implica la creación, envío y
+          <p class="text-justify">El funcionamiento de SOAP implica la creación, envío y
             recepción de mensajes SOAP. Un mensaje SOAP consta de
             un sobre (encabezado) y un cuerpo. El sobre contiene
             información sobre la estructura y el procesamiento del
             mensaje, mientras que el cuerpo contiene los datos a
             transmitir.</p>
          
-          <p>Cuando una aplicación envía una solicitud SOAP a un
+          <p class="text-justify">Cuando una aplicación envía una solicitud SOAP a un
             servicio web, el mensaje se envía al servidor web que aloja
             el servicio. El servidor procesa la solicitud, realiza la
             operación especificada y devuelve una respuesta en forma
@@ -102,24 +118,24 @@
             procesar en la aplicación cliente.</p>
 
             <h5 class="mt-4">API Rest</h5>
-          <p>Una API, o interfaz de programación de aplicaciones es un conjunto de reglas que definen
+          <p class="text-justify">Una API, o interfaz de programación de aplicaciones es un conjunto de reglas que definen
             la forma en que aplicaciones o dispositivos pueden conectarse y comunicarse entre sí.
             Una API REST es una API que se ajusta a los principios de diseño de REST, o el estilo de
             arquitectura de transferencia de estado representacional. Por esta razón, las API REST a
             veces se denominan API RESTful.</p>
          
-          <p>Definido por primera vez en 2000 por el científico informático Dr. Roy Fielding en su tesis
+          <p class="text-justify">Definido por primera vez en 2000 por el científico informático Dr. Roy Fielding en su tesis
             doctoral, REST proporciona un nivel relativamente alto de flexibilidad y libertad para los
             desarrolladores. Esta flexibilidad es solo una de las razones por las que las API REST han
             surgido como un método común para conectar componentes y aplicaciones en una
             arquitectura de microservicios.</p>
 
             <h5 class="mt-4">JSON Web Token</h5>
-          <p>Un JWT es un estándar para la autenticación y el intercambio de información definido por RFC7519. Es
+          <p class="text-justify">Un JWT es un estándar para la autenticación y el intercambio de información definido por RFC7519. Es
             posible almacenar objetos JSON de forma segura y compacta. Este token es un código Base64 y se puede
             firmar con un par de claves secretas o privadas/públicas.</p>
          
-          <p>Los tokens firmados pueden verificar la integridad de la información que contienen, a diferencia de los
+          <p class="text-justify">Los tokens firmados pueden verificar la integridad de la información que contienen, a diferencia de los
             tokens cifrados que ocultan esta información. Si un JWT está firmado por un par de claves pública/privada,
             la empresa certifica que la parte que tiene la clave privada está realmente firmada.</p>
 
@@ -130,11 +146,11 @@
         <section id="microservicios">
             <h2>Microservicios</h2>
             <h5 class="mt-4">Definición</h5>
-          <p>Los microservicios, o arquitectura de microservicios, son un enfoque arquitectónico 
+          <p class="text-justify">Los microservicios, o arquitectura de microservicios, son un enfoque arquitectónico 
             nativo de la nube en el que una sola aplicación se conforma de muchos componentes o 
             servicios más pequeños poco acoplados y que se pueden desplegar de forma independiente.</p>
          
-          <p>Las arquitecturas de microservicios hacen que las aplicaciones sean más fáciles de 
+          <p class="text-justify">Las arquitecturas de microservicios hacen que las aplicaciones sean más fáciles de 
             escalar y más rápidas de desarrollar. Esto permite la innovación y acelera el tiempo de 
             comercialización de las nuevas características.</p>
 
@@ -152,12 +168,12 @@
           </ul>
 
           <h5>Qué no son los microservicios</h5>
-          <p>
+          <p class="text-justify">
             Los microservicios también pueden entenderse en contraste con dos 
             arquitecturas de aplicaciones anteriores: la arquitectura monolítica y la arquitectura orientada 
             a servicios (SOA).
           </p>
-          <p>
+          <p class="text-justify">
             La diferencia entre los microservicios y la arquitectura monolítica es que los microservicios componen 
             una única aplicación a partir de muchos servicios más pequeños y poco acoplados, frente al enfoque 
             monolítico de una aplicación grande y muy acoplada.
@@ -171,7 +187,7 @@
             </div>
           </div>
 
-          <p>
+          <p class="text-justify">
             Las diferencias entre los microservicios y la SOA pueden ser un poco menos claras. 
             Si bien se pueden establecer contrastes técnicos entre los microservicios y la SOA, 
             especialmente en torno a la función del bus de servicios empresarial, es más fácil ver 
@@ -189,11 +205,11 @@
           </div>
 
           <h5>Beneficios de los microservicios y las aplicaciones de la nube</h5>
-          <p>Los microservicios continúan ganando popularidad debido a la flexibilidad innata 
+          <p class="text-justify">Los microservicios continúan ganando popularidad debido a la flexibilidad innata 
             de la arquitectura en la nube. De hecho, un estudio reciente realizado por Intel reveló 
             que el 83 % de todas las nuevas aplicaciones nativas de la nube y las soluciones de SaaS 
             están usando microservicios.</p>
-          <p>
+          <p class="text-justify">
             Uno de los mayores beneficios de los microservicios es la velocidad y la flexibilidad de 
             implementación. A medida que las cargas de trabajo y las aplicaciones de nube continúan 
             creciendo en escala y alcance, es cada vez más difícil y requiere más tiempo adaptar las 
@@ -304,7 +320,7 @@
         <section id="contenedores">
             <h2 class="mt-5">Contenedores</h2><br>
             <h5>¿Qué son los contenedores?</h5>
-            <p>Los contenedores son paquetes de software que incluyen todos los elementos necesarios para que ejecutes tus productos en cualquier entorno. Como virtualizan el sistema operativo, se pueden ejecutar en cualquier parte, desde un centro de datos privado hasta la nube pública o incluso el portátil personal de un desarrollador. Desde Gmail a YouTube, pasando por la Búsqueda, en Google todo se hace en contenedores. La creación de contenedores permite a nuestros equipos de desarrollo moverse con rapidez, desplegar software con eficacia y funcionar a una escala sin precedentes. Hemos aprendido mucho sobre cómo ejecutar las cargas de trabajo en contenedores y hemos compartido esos conocimientos con la comunidad en todo momento: desde la primera etapa en que contribuimos con los cgroups al kernel de Linux hasta que extrajimos los diseños de nuestras herramientas internas y compartimos su código con la comunidad en el proyecto Kubernetes.</p>
+            <p class="text-justify">Los contenedores son paquetes de software que incluyen todos los elementos necesarios para que ejecutes tus productos en cualquier entorno. Como virtualizan el sistema operativo, se pueden ejecutar en cualquier parte, desde un centro de datos privado hasta la nube pública o incluso el portátil personal de un desarrollador. Desde Gmail a YouTube, pasando por la Búsqueda, en Google todo se hace en contenedores. La creación de contenedores permite a nuestros equipos de desarrollo moverse con rapidez, desplegar software con eficacia y funcionar a una escala sin precedentes. Hemos aprendido mucho sobre cómo ejecutar las cargas de trabajo en contenedores y hemos compartido esos conocimientos con la comunidad en todo momento: desde la primera etapa en que contribuimos con los cgroups al kernel de Linux hasta que extrajimos los diseños de nuestras herramientas internas y compartimos su código con la comunidad en el proyecto Kubernetes.</p>
             <div class="row my-4">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
@@ -317,23 +333,23 @@
             <div class="row my-4">
                 <div class="col-md-4">
                     <h6>Separación de las responsabilidades</h6><br>
-                    <p>La creación en contenedores permite separar de forma clara las responsabilidades, ya que los desarrolladores se centran en la lógica y las dependencias de las aplicaciones, mientras que los equipos de operaciones de TI se dedican a desplegarlas y gestionarlas sin preocuparse por detalles concretos, como versiones de software o configuraciones específicas.</p>
+                    <p class="text-justify">La creación en contenedores permite separar de forma clara las responsabilidades, ya que los desarrolladores se centran en la lógica y las dependencias de las aplicaciones, mientras que los equipos de operaciones de TI se dedican a desplegarlas y gestionarlas sin preocuparse por detalles concretos, como versiones de software o configuraciones específicas.</p>
                 </div>
                 <div class="col-md-4">
                     <h6>Portabilidad de las cargas de trabajo</h6><br>
-                    <p>Como los contenedores se pueden ejecutar casi en cualquier lugar, resulta facilísimo desarrollarlos y desplegarlos en sistemas operativos Linux, Windows y Mac; en máquinas virtuales o servidores físicos; en equipos de desarrolladores o centros de datos on‑premise; y, por supuesto, en la nube pública.</p> 
+                    <p class="text-justify">Como los contenedores se pueden ejecutar casi en cualquier lugar, resulta facilísimo desarrollarlos y desplegarlos en sistemas operativos Linux, Windows y Mac; en máquinas virtuales o servidores físicos; en equipos de desarrolladores o centros de datos on‑premise; y, por supuesto, en la nube pública.</p> 
                 </div>
                 <div class="col-md-4">
                     <h6>Aislamiento de<br> Aplicaciones</h6><br>
-                    <p>Los contenedores virtualizan los recursos de CPU, memoria, almacenamiento y red a nivel de sistema operativo, lo que proporciona a los desarrolladores una vista del sistema operativo aislado lógicamente de las demás aplicaciones.</p>
+                    <p class="text-justify">Los contenedores virtualizan los recursos de CPU, memoria, almacenamiento y red a nivel de sistema operativo, lo que proporciona a los desarrolladores una vista del sistema operativo aislado lógicamente de las demás aplicaciones.</p>
                 </div>
             </div>
             <br>
             <h5>Diferencias entre Kubernetes y Docker</h5>
-            <p>Docker es una tecnología de tiempo de ejecución de contenedores que le permite crear, probar e implementar aplicaciones más rápido que con los métodos tradicionales. Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema y código. Kubernetes es una herramienta de orquestación de contenedores que le permite escalar sus sistemas de contenedores para que pueda administrar, coordinar y programar contenedores a gran escala.</p>
+            <p class="text-justify">Docker es una tecnología de tiempo de ejecución de contenedores que le permite crear, probar e implementar aplicaciones más rápido que con los métodos tradicionales. Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema y código. Kubernetes es una herramienta de orquestación de contenedores que le permite escalar sus sistemas de contenedores para que pueda administrar, coordinar y programar contenedores a gran escala.</p>
             <br>
             <h5>¿Dónde se utilizan Kubernetes y Docker?</h5>
-            <p>Tanto Kubernetes como Docker son tecnologías de contenedores. Las aplicaciones modernas están formadas por microservicios o componentes independientes que ejecutan cada proceso de la aplicación como un servicio. Cada servicio realiza una única función y se comunica con otros servicios a través de una interfaz bien definida denominada API. La contenedorización proporciona la herramienta de software para empaquetar microservicios como programas que se pueden implementar en diferentes plataformas.</p>
+            <p class="text-justify">Tanto Kubernetes como Docker son tecnologías de contenedores. Las aplicaciones modernas están formadas por microservicios o componentes independientes que ejecutan cada proceso de la aplicación como un servicio. Cada servicio realiza una única función y se comunica con otros servicios a través de una interfaz bien definida denominada API. La contenedorización proporciona la herramienta de software para empaquetar microservicios como programas que se pueden implementar en diferentes plataformas.</p>
             <br>
             <div class="container my-5">
                 <h2 class="mb-4">Comparación entre Kubernetes y Docker</h2>
@@ -372,7 +388,7 @@
 
             <div class="mb-4">
             <h5>¿Qué es?</h5>
-            <p>Es el proceso de diseñar, construir, probar, implementar y mantener aplicaciones que se ejecutan en entornos <strong>cloud</strong> (nube), ya sea pública, privada o híbrida. Estas apps están optimizadas para aprovechar las ventajas del cómputo en la nube, como la escalabilidad, disponibilidad y flexibilidad.</p>
+            <p class="text-justify">Es el proceso de diseñar, construir, probar, implementar y mantener aplicaciones que se ejecutan en entornos <strong>cloud</strong> (nube), ya sea pública, privada o híbrida. Estas apps están optimizadas para aprovechar las ventajas del cómputo en la nube, como la escalabilidad, disponibilidad y flexibilidad.</p>
             </div>
 
             <div class="mb-4">
@@ -523,8 +539,8 @@
   </main>
 
   <footer class="blog-footer">
-    <p>Proyecto integrador. Glafira Rodríguez Esparza</p>
-    <p>
+    <p class="text-justify">Proyecto integrador. Glafira Rodríguez Esparza</p>
+    <p class="text-justify">
       <a href="index.html">Volver a la página principal</a>
     </p>
   </footer>
